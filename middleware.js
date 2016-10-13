@@ -9,4 +9,5 @@ var middleware = {
     }
 };
 
+//returning middleware variable
 module.exports = middleware;
