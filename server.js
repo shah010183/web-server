@@ -1,7 +1,7 @@
 var express = require('express');
 const util = require('util')
 var app = express(); //express app
-var port = 3000;
+var port = process.env.port || 3000;
 
 var middleware = require('./middleware.js');
 //moved all middleware code to this file
